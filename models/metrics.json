@@ -1,0 +1,29 @@
+{
+  "best_model": "Linear Regression",
+  "models": {
+    "Linear Regression": {
+      "file": "linear_regression_pipeline.pkl",
+      "r2": "0.796",
+      "rmse": "5940",
+      "mae": "4069"
+    },
+    "Ridge": {
+      "file": "ridge_pipeline.pkl",
+      "r2": "0.795",
+      "rmse": "5947",
+      "mae": "4077"
+    },
+    "Lasso": {
+      "file": "lasso_pipeline.pkl",
+      "r2": "0.795",
+      "rmse": "5952",
+      "mae": "4076"
+    },
+    "ElasticNet": {
+      "file": "elasticnet_pipeline.pkl",
+      "r2": "0.794",
+      "rmse": "5967",
+      "mae": "4100"
+    }
+  }
+}
